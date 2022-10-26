@@ -1,4 +1,5 @@
 @import './header.css';
+@import './intro.css';
 
 :root {
   --c00: #ffffff;
@@ -27,11 +28,20 @@
 }
 
 ul {
-  margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 a {
   text-decoration: none;
+  color: inherit; /*vai herdar a cor do elemento pai*/
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, ul, p {
+  margin: 0px;
 }
