@@ -1,47 +1,10 @@
-@import './header.css';
-@import './intro.css';
+@import './global/global.css';
+@import 'global/header.css';
+@import 'utilidades/tipografia.css';
+@import 'utilidades/cores.css';
 
-:root {
-  --c00: #ffffff;
-  --c01: #F7F7F7;
-  --c02: #EDEDED;
-  --c03: #DEDEDE;
-  --c04: #CCCCCC;
-  --c05: #b2b2b2;
-  --c06: #9c9c9c;
-  --c07: #717171;
-  --c08: #595959;
-  --c09: #404040;
-  --c10: #2E2E2E;
-  --c11: #111111;
-  --c12: #000000;
-  --p01: #FFBB00;
-  --p02: #E4A30B;
-  --p03: #a66f00;
-  --p04: #664400;
-  --p05: #332200;
-}
+/*Utilidades*/
+@import 'utilidades/componentes.css';
 
-* {
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  padding: 0px;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit; /*vai herdar a cor do elemento pai*/
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-h1, ul, p {
-  margin: 0px;
-}
+/*Home*/
+@import 'home/intro.css';
