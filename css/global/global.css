@@ -4,6 +4,10 @@ body {
   color: #111;
 }
 
+h1, h2, h3, h4, ul, p {
+  margin: 0px;
+}
+
 ul {
   padding: 0px;
   list-style: none;
@@ -19,6 +23,7 @@ img {
   display: block;
 }
 
-h1, ul, p {
-  margin: 0px;
+img[src$=".jpg"] {
+  /*Seletor de atributo. Neste caso, estamos selecionando todas as fontes (src) que contenham (símbolo $=) .jpg*/
+  border-radius: 4px;
 }
