@@ -20,44 +20,44 @@
 }
 
 .cor-0 {
-  color: #ffffff;
+  color: var(--c00);
 }
 
 .cor-1 {
-  color: #F7F7F7;
+  color: var(--c01);
 }
 .cor-2 {
-  color: #EDEDED;
+  color: var(--c02);
 }
 .cor-3 {
-  color: #DEDEDE;
+  color: var(--c03);
 }
 .cor-4 {
-  color: #CCCCCC;
+  color: var(--c04);
 }
 .cor-5 {
-  color: #b2b2b2;
+  color: var(--c05);
 }
 .cor-6 {
-  color: #9c9c9c;
+  color: var(--c06);
 }
 .cor-7 {
-  color: #717171;
+  color: var(--c07);
 }
 .cor-8 {
-  color: #595959;
+  color: var(--c08);
 }
 .cor-9 {
-  color: #404040;
+  color: var(--c09);
 }
 .cor-10 {
-  color: #2E2E2E;
+  color: var(--c10);
 }
 .cor-11 {
-  color: #111111;
+  color: var(--c11);
 }
 .cor-12 {
-  color: #000000;
+  color: var(--c12);
 }
 .cor-p1 {
   color: var(--p01);
